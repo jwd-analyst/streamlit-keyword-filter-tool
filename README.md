@@ -244,26 +244,6 @@ pip install wordcloud matplotlib
 - Check keyword spelling
 - Test with known queries from your CSV
 
-## Deployment
-
-### Streamlit Community Cloud (free)
-
-1. Push code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repository
-4. Select `streamlit_app_en.py` as main file
-5. Click "Deploy"
-
-The app will then be publicly available at `https://[your-username]-[repo-name].streamlit.app`
-
-### Share Locally on Network
-
-```bash
-streamlit run streamlit_app_en.py --server.address 0.0.0.0
-```
-
-Others on the network can then access via your IP address.
-
 ## Further Links
 
 - [Streamlit Documentation](https://docs.streamlit.io)
